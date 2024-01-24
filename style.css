@@ -1,0 +1,329 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: 'Red Hat Display', sans-serif;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Red Hat Display', sans-serif;
+    /* Add more styles as needed */
+  }
+  h1 {
+    font-weight: 100;
+  }
+  
+  /* Other styles for your page go here */
+  .site-menu {
+    background-color: #000; /* Bar color */
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .site-menu ul {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size:1.5em;
+    font-weight: 300;
+  }
+  
+  .site-menu li {
+    margin: 0 20px;
+  }
+  
+  .site-menu a {
+    text-decoration: none;
+    color: #ffffff;
+
+  }
+  
+  .site-menu a:hover {
+
+    border-radius: 8px;
+    background-color: #333;
+  }
+  
+  /* Mobile-friendly styles */
+  @media (max-width: 768px) {
+    .site-menu {
+      text-align: center;
+    }
+  
+    .site-menu ul {
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: center ;
+    }
+  
+    .site-menu li {
+      margin: 10px 0;
+    }
+    .site-menu {
+        text-align: center; /* Center the content inside the site-menu */
+      }
+      
+      .site-menu ul {
+        list-style: none;
+        padding: 0;
+        display: inline-block; /* Make the ul inline-block to center it */
+      }
+  }
+  
+  .cover-image {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+  .title-overlay {
+    position: absolute;
+    top: 50%;
+    left: 30%; /* Default left position */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+    z-index: 2;
+  }
+  
+  .title-overlay h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .title-overlay p.subtitle {
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  
+  @media (max-width: 600px) {
+    .title-overlay {
+       /* Adjust left position for smaller screens */
+      text-align: left;
+      right: 15%;
+      top: 20%;
+    }
+    
+    .title-overlay h1 {
+      font-size: 2em; /* Adjust font size for smaller screens */
+    }
+  
+    .title-overlay p.subtitle {
+      font-size: 1.5em; /* Adjust subtitle font size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .title-overlay h1 {
+      font-size: 2em; /* Further adjust font size for even smaller screens */
+    }
+  
+    .title-overlay p.subtitle {
+      font-size: 0.8em; /* Further adjust subtitle font size for even smaller screens */
+    }
+  }
+  
+  
+
+  
+  /* Rest of the CSS remains the same */
+  
+  
+  .subtitle {
+    margin-top: 10px;
+  }
+  
+  section {
+    margin: 0px;
+  }
+  
+  img.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  section p {
+    text-align: justify;
+    color: #555;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+
+section p {
+  text-align: justify;
+}
+
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+#bio {
+    margin: 40px;
+}
+.bio-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  #bio h2 {
+    color: #3498db;
+  }
+ .bio-text {
+    flex-grow: 1;
+    background-color: white;
+    padding: 20px;;
+    border-radius: 8px;
+    text-align: Left;
+    width: 100%;
+  }
+  #recordings {
+    margin: 40px;
+    text-align: justify;
+  }
+  #recordings h2 {
+    color: #3498db;
+    margin-left: 30px;
+    padding: auto;
+  }
+  #recordings p {
+    text-align: center;
+    margin: 10px;
+  }
+  /* Existing CSS */
+/* Existing CSS */
+
+.teaching-philosophy-content {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin: 20px;
+  }
+  
+  .teaching-philosophy-text {
+    flex-grow: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px; /* Add some spacing between text and photo */
+  }
+  
+  .teaching-philosophy-photo {
+    max-width: 50%; /* Adjust the percentage to your preference */
+    height: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  /* Mobile-friendly styles */
+  @media (max-width: 768px) {
+    .teaching-philosophy-content {
+      flex-direction: column;
+    }
+  
+    .teaching-philosophy-text {
+
+    }
+    .teaching-philosophy-photo {
+      max-width: 100%;
+      margin-right: 0; /* Remove spacing on mobile */
+    }
+  }
+  /* Existing CSS */
+
+.pdf-button {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #333;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Add smooth transition effect */
+  }
+  
+  
+  .pdf-button:hover {
+    background-color: #38a302;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  /* Add this to your existing CSS or create a new style section */
+
+/* Add this to your existing CSS or create a new style section */
+
+/* Add this to your existing CSS or create a new style section */
+
+#contact p {
+    text-align: center;
+  }
+  
+  .email-button {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Add smooth transition effect */
+  }
+  
+  .email-button:hover {
+    background-color: #38a302; /* Change background color on hover */
+    text-decoration: none;
+    color: #ffffff;
+  }
+  /* Add this to your existing CSS or create a new style section */
+
+#press-releases-reviews {
+    padding: 20px;
+    margin: 40px;
+    background-color: #ffffff;
+    border-radius: 8px; /* Set background color for the section */
+  }
+  
+  .press-links {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .press-link {
+    text-decoration: none;
+    color: #333; /* Set link color */
+    border-bottom: 1px solid #ddd; /* Add a border between links */
+    padding: 15px 0; /* Add padding for better spacing */
+  }
+  
+  .press-link:last-child {
+    border-bottom: none; /* Remove border for the last link */
+  }
+  
+  .press-link h3 {
+    margin: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .press-links {
+      flex-direction: row;
+    }
+  
+    .press-link {
+      flex-grow: 1;
+      margin: 0 10px;
+      border-bottom: none; /* Remove border for horizontal layout */
+    }
+  }
+  
+  
